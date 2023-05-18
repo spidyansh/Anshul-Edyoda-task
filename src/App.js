@@ -3,6 +3,7 @@ import './App.css';
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
 import Subcription_chart from './Components/Subcription_chart';
+import Subscription_plan from './Components/Subscription_plan';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
     <Navbar/>
     <div className="main-page ">
     <Hero/>
-    <Subcription_chart/>
+    <Subscription_plan/>
     </div>
     </>
   );

@@ -1,6 +1,6 @@
 /* Main page */
 
-.main-page{
+.main-page {
   display: flex;
   flex-direction: row;
   padding: 50px 100px 100px 100px;
@@ -8,29 +8,99 @@
 
 /* navbar */
 
+.nav_edy_css {
+  position: absolute;
+  width: 170px;
+  height: 45px;
+  left: 0.5px;
+  top: 0.5px;
 
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 45px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  background: linear-gradient(90.72deg, #0096ff 42.18%, #0048ff 93.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
 /* hero */
 
-.hero-container{
+.hero-container {
   color: white;
 }
-
-
+.hero-features{
+  margin-top: 40px;
+  
+  font-size: 23px;
+}
+.hero-features p{
+  padding-bottom: 25px;
+}
 
 /* Subscription container */
 
-.subscription_container{
+.subscription_container {
   background-color: white;
   margin-left: 300px;
-  height: 70vh;
+  height: 75vh;
   width: 25vw;
   border-radius: 5px;
 }
-.subscription_menu{
+.subscription_menu {
   border: 2px solid black;
   border-radius: 5px;
   margin: 20px 20px 20px 20px;
   height: 9vh;
   width: 22vw;
+}
+.subscription_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin: 30px 0px 10px 0px;
+}
+.subscription_nav_item_subscribe,
+.subscription_nav_item_signup,
+.subscription_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscription_menu_container {
+}
+.subscription_menu_badge {
+  margin-left: 40px;
+}
+.subscription_menu_container_main {
+  display: flex;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.subscription_menu_container_price {
+  font-size: 14px;
+  margin-left: 90px;
+  margin-top: -17px;
+}
+
+.subscription_btn{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Utilities */
+
+.font_small {
+  font-size: 12px;
+  margin-top: -15px;
 }
