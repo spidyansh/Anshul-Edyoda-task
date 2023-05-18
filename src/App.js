@@ -8,8 +8,10 @@ function App() {
   return (
     <>
     <Navbar/>
+    <div className="main-page ">
     <Hero/>
     <Subcription_chart/>
+    </div>
     </>
   );
 }

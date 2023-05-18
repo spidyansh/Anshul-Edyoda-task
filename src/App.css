@@ -1,4 +1,36 @@
+/* Main page */
+
+.main-page{
+  display: flex;
+  flex-direction: row;
+  padding: 50px 100px 100px 100px;
+}
+
+/* navbar */
+
+
+
+/* hero */
+
+.hero-container{
+  color: white;
+}
+
+
+
+/* Subscription container */
+
+.subscription_container{
+  background-color: white;
+  margin-left: 300px;
+  height: 70vh;
+  width: 25vw;
+  border-radius: 5px;
+}
 .subscription_menu{
   border: 2px solid black;
   border-radius: 5px;
+  margin: 20px 20px 20px 20px;
+  height: 9vh;
+  width: 22vw;
 }
